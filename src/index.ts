@@ -2,7 +2,7 @@ import arg from 'arg'
 import { rndIV, encryptText, decryptText } from 'text-crypt'
 
 const APP_NAME = 'text-crypt-cli'
-const APP_VERSION = '0.0.1'
+const APP_VERSION = '0.0.2'
 
 const args = arg({
   // Types
