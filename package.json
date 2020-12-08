@@ -8,6 +8,9 @@
   },
   "engineStrict": true,
   "main": "./bin/index.js",
+  "bin": {
+    "text-crypt-cli": "./bin/index.js"
+  },
   "preferGlobal": true,
   "scripts": {
     "add_shebang": "node ./scripts/add_shebang.js",
